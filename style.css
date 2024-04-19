@@ -1,0 +1,68 @@
+/* Base settings and font adjustments */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Note form styling */
+  .note-form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .note-input, .note-textarea, .save-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .note-input, .note-textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .save-btn {
+    display: block;
+    background-color: #428bca;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-btn:hover {
+    background-color: #3276b1;
+  }
+  
+  /* Note list styling */
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .note {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  

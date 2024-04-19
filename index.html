@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notepad App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Notepad App</h1>
+      <div id="note-form" class="note-form">
+        <input
+          type="text"
+          id="note-title"
+          placeholder="Title"
+          class="note-input"
+        />
+        <textarea
+          id="note-content"
+          placeholder="Write your note here..."
+          class="note-textarea"
+        ></textarea>
+        <button onclick="saveNote()" class="save-btn">Save Note</button>
+      </div>
+      <div id="notes-list" class="notes-list">
+        <!--Notes will be listed here -->
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
